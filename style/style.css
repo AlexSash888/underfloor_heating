@@ -183,7 +183,7 @@ ul.footer__contact {
     :root {
         --padding: 30px;
         --width-slide: 440px;
-     }
+    }
 
     .container {
         max-width: 890px;
@@ -204,10 +204,10 @@ ul.footer__contact {
 }
 
 @media (max-width:920px) {
-     :root {
+    :root {
         --padding: 24px;
         --width-slide: 311px;
-     }
+    }
 
     .container {
         max-width: 690px;
@@ -221,7 +221,7 @@ ul.footer__contact {
     .button {
         padding: 10px 24px;
         font-size: 14px;
-      }
+    }
 }
 
 @media (max-width:560px) {
@@ -230,7 +230,7 @@ ul.footer__contact {
         --padding: 20px;
         /* --width-slide: 308px; */
         --gap: 4px;
-     }
+    }
     .container {
         padding: 0 6px;
     }
@@ -238,12 +238,10 @@ ul.footer__contact {
     .grey-block {
         min-height: 232px;
     }
-
     .button {
-      padding: 10px 24px;
-      font-size: 12px;
+        padding: 10px 24px;
+        font-size: 12px;
     }
-
     .title {
         font-size: 24px;
     }
