@@ -3,10 +3,10 @@ new Swiper('.hero__slider', {
     spaceBetween: 10,
     loop: true,
     navigation: {
-        prevEl:'.hero__slider-btn_prev',
-        nextEl:'.hero__slider-btn_next',
+        prevEl: '.hero__slider-btn_prev',
+        nextEl: '.hero__slider-btn_next',
     },
     autoplay: {
-     delay: 3000,
+        delay: 3000,
     }
 })
