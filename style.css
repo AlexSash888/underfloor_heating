@@ -90,6 +90,11 @@ img {
     border: 1px solid #232020;
 }
 
+.image {
+    width: 100%;
+    height: auto;
+}
+
 .footer {
     /* margin-bottom: 40px; */
 }
@@ -222,6 +227,9 @@ ul.footer__contact {
         padding: 10px 24px;
         font-size: 14px;
     }
+    .header__logo{
+        width: 124px;
+    }
 }
 
 @media (max-width:560px) {
@@ -231,6 +239,7 @@ ul.footer__contact {
         /* --width-slide: 308px; */
         --gap: 4px;
     }
+
     .container {
         padding: 0 6px;
     }
@@ -238,10 +247,12 @@ ul.footer__contact {
     .grey-block {
         min-height: 232px;
     }
+
     .button {
         padding: 10px 24px;
         font-size: 12px;
     }
+
     .title {
         font-size: 24px;
     }

@@ -21,6 +21,7 @@
     position: absolute;
     width: calc(((var(--width-block) + var(--gap)) * 2) - var(--gap));
     left: calc(var(--width-block) + var(--gap) / 2);
+    height: 100%;
 }
 
 .hero__title {
@@ -36,7 +37,7 @@
 
 .hero__image {
     width: var(--width-slide);
-    height: var(--hight-slide);
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,12 +46,13 @@
 
 .hero__slider {
     position: relative;
+    height: 100%;
 }
 
 .hero__arrow {
     position: absolute;
-    bottom: 50px;
-    left: calc(var(--width-slide) - 50px);
+    bottom: var(--padding);
+    left: calc(var(--width-slide) - var(--padding));
     transform: translateX(-100%);
     display: flex;
     gap: 8px;
@@ -69,4 +71,17 @@
 
 .hero__slider-btn_prev {
     transform: rotate(180deg);
+}
+
+@media (max-width:1240px) {
+
+}
+
+@media (max-width:920px) {
+  
+}
+
+@media (max-width:560px) {
+
+
 }
