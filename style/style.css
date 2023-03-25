@@ -91,7 +91,7 @@ img {
 }
 
 .image {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -227,7 +227,8 @@ ul.footer__contact {
         padding: 10px 24px;
         font-size: 14px;
     }
-    .header__logo{
+
+    .header__logo {
         width: 124px;
     }
 }
@@ -236,7 +237,6 @@ ul.footer__contact {
 
     :root {
         --padding: 20px;
-        /* --width-slide: 308px; */
         --gap: 4px;
     }
 
