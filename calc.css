@@ -173,6 +173,12 @@
   .calc__radio-text {
     font-size: 14px;
   }
+
+  .calc__total {
+    align-items: flex-start;
+    min-height: 220px;
+    background-position: 50% 75%;
+  }
 }
 
 @media (max-width: 560px) {
@@ -209,5 +215,15 @@
 
   .calc__wrapper-input-tariff:last-child {
     margin-bottom: 0;
+  }
+
+  .calc__result-wrapper {
+    padding: 16px;
+  }
+  .calc__result {
+    margin-bottom: 8px;
+  }
+  .calc__total {
+    min-height: auto;
   }
 }
